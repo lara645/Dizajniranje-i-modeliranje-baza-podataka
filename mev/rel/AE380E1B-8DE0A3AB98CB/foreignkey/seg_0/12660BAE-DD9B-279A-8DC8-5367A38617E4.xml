@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="12660BAE-DD9B-279A-8DC8-5367A38617E4" containerWithKeyObject="879AD4A9-AA9C-6777-E3AA-FE5D5C41001B" localFKIndex="E4FF56F4-5111-6FA1-168D-5C4A36FF527D" name="dnevnik_predmet_FK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:49:24 UTC</createdTime>
+<generatorID>9217F099-3D87-2B12-EFD4-BE210C9BAEC9</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<referredTableLongName>predmet</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0D4E72C5-565B-9612-A75C-B8C950F61324</referredTableID>
+<keyObject>93BBCB76-7D0B-0106-47F3-8763261A334C</keyObject>
+<referredKeyID>93BBCB76-7D0B-0106-47F3-8763261A334C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>predmet_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E99E030-0D33-0059-C3C8-4AB66E0073F1" name="učenik">
+<createdBy>LARA</createdBy>
+<createdTime>2020-04-29 18:30:25 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="učenik_id" id="B83A9254-DCE2-85EF-686F-66DF88FCA89A">
+<createdBy>LARA</createdBy>
+<createdTime>2020-04-29 18:31:02 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime" id="A4B7CACF-3869-E191-27E9-3788ADC04167">
+<createdBy>LARA</createdBy>
+<createdTime>2020-04-29 18:32:19 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prezime" id="01EA2FC3-1868-0C4A-72E7-2AFF58BFC080">
+<createdBy>LARA</createdBy>
+<createdTime>2020-04-29 18:32:40 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_rođ" id="4F196CA9-DB95-83AA-FF21-E024386F9ADD">
+<createdBy>LARA</createdBy>
+<createdTime>2020-04-29 18:32:54 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="spol" id="2C369529-1059-30B2-15DC-B34372F5DDBA">
+<createdBy>LARA</createdBy>
+<createdTime>2020-04-29 18:33:06 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresa" id="29BDA646-7709-0766-A8B3-D1B11C5AD1F2">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 17:11:23 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="školska_godina" id="0F8EE37D-CE00-FB4F-F3E3-3F3BBBBE12F2">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-07 08:08:19 UTC</createdTime>
+<generatorID>469A0C2D-8519-9A52-DC03-CA409A187198</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<referedAttribute>92C3C56B-960C-1002-FA18-DDB3DB06C9A9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="odjeljenje" id="A174689C-6645-835C-3560-3CFC9F91F597">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 20:41:33 UTC</createdTime>
+<generatorID>469A0C2D-8519-9A52-DC03-CA409A187198</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<referedAttribute>5CA0A8D7-8092-1BF1-0BDA-8A539FDB6F9F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razred_br" id="8D5AA247-234D-2412-EDF7-2B8E350E653E">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:53:10 UTC</createdTime>
+<generatorID>469A0C2D-8519-9A52-DC03-CA409A187198</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<referedAttribute>860DF90C-C7EF-8769-DE65-F9964F0ECD17</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E8BC5E31-CF44-5C43-F5F1-10D29D176E86" name="učenik PK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-04-29 18:32:12 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B83A9254-DCE2-85EF-686F-66DF88FCA89A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

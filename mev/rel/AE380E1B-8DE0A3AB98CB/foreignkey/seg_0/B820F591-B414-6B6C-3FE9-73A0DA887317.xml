@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B820F591-B414-6B6C-3FE9-73A0DA887317" containerWithKeyObject="837F4BFC-53F9-C61C-878E-CC0AE42070A7" localFKIndex="14299C58-FCB8-9238-F2F3-C58B9A15289E" name="pedagoška_mjera_učenik_FK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>381E7488-8621-56E4-E5EA-3616A448FF23</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<referredTableLongName>učenik</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FA218B48-238C-EE8C-8A3C-665239F5B658</referredTableID>
+<keyObject>18D81558-5F61-9E1C-FAB4-C1219A97C500</keyObject>
+<referredKeyID>18D81558-5F61-9E1C-FAB4-C1219A97C500</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>učenik_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

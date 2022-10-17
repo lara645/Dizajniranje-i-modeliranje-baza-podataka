@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2F5C50FC-2121-F7BC-AFE9-67122A9D8127" containerWithKeyObject="AEB53ADE-7B2A-6C27-86ED-AD49DD771E17" localFKIndex="79D97B18-E402-0762-E075-DB3264232B19" name="natjecanje_predmet_FK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:49:24 UTC</createdTime>
+<generatorID>1A3C66C9-BACB-0BBE-AB36-9EC849625C51</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<referredTableLongName>predmet</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0D4E72C5-565B-9612-A75C-B8C950F61324</referredTableID>
+<keyObject>93BBCB76-7D0B-0106-47F3-8763261A334C</keyObject>
+<referredKeyID>93BBCB76-7D0B-0106-47F3-8763261A334C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>predmet_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

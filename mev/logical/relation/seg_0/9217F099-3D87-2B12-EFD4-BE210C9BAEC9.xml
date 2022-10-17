@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="predmet_dnevnik" directorySegmentName="seg_0" id="9217F099-3D87-2B12-EFD4-BE210C9BAEC9">
+<createdBy>LARA</createdBy>
+<createdTime>2020-04-29 19:42:34 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<sourcePk>5D23EE6B-842C-4226-3C25-410A538102F3</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A1330085-3845-6D8E-75E5-2AF61FE8E769</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C5A22D97-8526-5797-2160-3B408E41D589</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

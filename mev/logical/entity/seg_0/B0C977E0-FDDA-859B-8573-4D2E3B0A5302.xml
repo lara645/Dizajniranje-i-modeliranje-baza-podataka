@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B0C977E0-FDDA-859B-8573-4D2E3B0A5302" name="roditelj">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 15:52:47 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="roditelj_id" id="C381C3D0-F474-3EAB-4D18-D97B3289EEA6">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 15:53:07 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime" id="C53D04D7-EEDC-B23E-EFCB-DF133E0E1582">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 15:53:25 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prezime" id="E7184509-0D20-A5B9-A382-F54763190255">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 15:54:16 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="spol" id="4273B146-09D5-EFCD-2225-8BC0B5943031">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 17:39:48 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresa" id="57A9477A-8BA6-0157-0DE0-DE0960294524">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 15:54:38 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefon" id="BE3FF13E-A845-76B8-6EB9-AFB2392E77C8">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 15:55:17 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="46DCC4D8-9CCE-BBD6-AEBD-A0D19F4D6C65">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 16:02:17 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="18745502-5588-526C-13DC-B0339348616A" name="roditelj PK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 15:53:24 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C381C3D0-F474-3EAB-4D18-D97B3289EEA6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

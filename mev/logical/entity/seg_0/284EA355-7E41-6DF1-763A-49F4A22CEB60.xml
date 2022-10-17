@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="284EA355-7E41-6DF1-763A-49F4A22CEB60" name="raspored">
+<createdBy>LARA</createdBy>
+<createdTime>2020-04-29 18:38:26 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="raspored_id" id="6BE405FD-8173-2240-D385-9E0AD410DBD6">
+<createdBy>LARA</createdBy>
+<createdTime>2020-04-29 18:38:37 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum" id="C4759C9D-9A89-7DCA-0C6E-B1B56B9BEE4E">
+<createdBy>LARA</createdBy>
+<createdTime>2020-04-30 19:31:38 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dan_u_tjednu" id="33D1925E-AC2F-2615-9155-4E9945E1D3E0">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-07 10:54:28 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="smjena" id="42230146-BABC-535B-E7E4-75A9E4C08A25">
+<createdBy>LARA</createdBy>
+<createdTime>2020-04-29 18:40:00 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sat" id="DEBC4479-25A2-D8BB-9453-873C5867C41F">
+<createdBy>LARA</createdBy>
+<createdTime>2020-04-29 18:39:34 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="učionica" id="35E9C043-0845-16C3-F12C-2D9AEC943409">
+<createdBy>LARA</createdBy>
+<createdTime>2020-04-29 18:39:07 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="predmet_id" id="123AB669-EE33-7D9B-1EA4-8337577FF742">
+<createdBy>LARA</createdBy>
+<createdTime>2020-04-29 19:51:42 UTC</createdTime>
+<generatorID>2938B838-0777-FEE6-0451-B8572029C6AC</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<referedAttribute>24F6A626-EE0C-42B6-D858-18BAFD2135D3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="školska_godina" id="F974BD6E-EDD5-3558-9F8C-420925684EA0">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-07 08:08:19 UTC</createdTime>
+<generatorID>82024201-6BE4-F643-F7DF-0C431081D25D</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<referedAttribute>92C3C56B-960C-1002-FA18-DDB3DB06C9A9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="odjeljenje" id="016375C7-1104-ADA6-D104-5D5E8C7059D9">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 20:41:33 UTC</createdTime>
+<generatorID>82024201-6BE4-F643-F7DF-0C431081D25D</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<referedAttribute>5CA0A8D7-8092-1BF1-0BDA-8A539FDB6F9F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razred_br" id="525AB1F2-E665-9652-14D6-FC9046BFAC5E">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:53:10 UTC</createdTime>
+<generatorID>82024201-6BE4-F643-F7DF-0C431081D25D</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<referedAttribute>860DF90C-C7EF-8769-DE65-F9964F0ECD17</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB8CB235-4EFD-F40E-86EF-E6405A587CA4" name="raspored PK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-04-29 18:39:00 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6BE405FD-8173-2240-D385-9E0AD410DBD6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

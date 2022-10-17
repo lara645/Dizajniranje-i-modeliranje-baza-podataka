@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="79964D91-3816-C7BA-970C-2E948C5AF941" containerWithKeyObject="F45A42B0-6188-5436-E549-05ABBEB4D1E9" localFKIndex="1CDF1A9B-C3AF-48D4-D5A6-FBDB944464C3" name="izostanak_raspored_FK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>EE92368F-D52A-26DD-4008-55D517C3B62D</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<referredTableLongName>raspored</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>01734751-63FC-F53E-824A-29857E911907</referredTableID>
+<keyObject>C45DC05C-2551-9D2C-1FDF-508BBB0F48FA</keyObject>
+<referredKeyID>C45DC05C-2551-9D2C-1FDF-508BBB0F48FA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>raspored_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ADD85F6C-3F05-E3A5-4FFD-A2F9FAA563EA" name="razred">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>A9B2CBCE-3C0C-C02A-7F3A-38838AEF0240</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="školska_godina" id="760256F9-AA33-6EFC-0023-6520B73C0E50">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>92C3C56B-960C-1002-FA18-DDB3DB06C9A9</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nastavnik_nastavnik_id" id="A7BB57E9-453A-9282-8AA2-B39F752579EF">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>60E667B8-FBC7-B1A4-A363-1F62BD7425EC</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DB6EF4F-6EA1-699E-05AF-6634E21CEF42" referredColumn="3493FE97-3CDC-972E-4BF6-293CED0239B9"/>
+</associations>
+</Column>
+<Column name="razred_br" id="FA8D2A05-7CF6-1A37-88F2-704DAE2971BA">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>860DF90C-C7EF-8769-DE65-F9964F0ECD17</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="odjeljenje" id="3E21DCA6-4634-C95A-0A3E-4C5536281556">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>5CA0A8D7-8092-1BF1-0BDA-8A539FDB6F9F</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C37368E1-9388-16C1-8722-8063C2A33281" name="razred_PK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>D87BF4D7-F53F-025A-C0EC-356C62AF408D</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="760256F9-AA33-6EFC-0023-6520B73C0E50"/>
+<colUsage columnID="3E21DCA6-4634-C95A-0A3E-4C5536281556"/>
+<colUsage columnID="FA8D2A05-7CF6-1A37-88F2-704DAE2971BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B82240F-C86D-DB6B-3D64-4290FCC68A67" name="razred__IDX">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C0D7829B-D372-8C74-317C-C08FEF9F69B9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A7BB57E9-453A-9282-8AA2-B39F752579EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A87A1C9-1403-463A-7716-CCB7F8F81788" name="razred_nastavnik_FK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>C0D7829B-D372-8C74-317C-C08FEF9F69B9</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7BB57E9-453A-9282-8AA2-B39F752579EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

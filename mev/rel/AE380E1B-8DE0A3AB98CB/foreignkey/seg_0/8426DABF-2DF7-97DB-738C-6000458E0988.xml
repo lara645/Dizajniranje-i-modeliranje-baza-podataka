@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8426DABF-2DF7-97DB-738C-6000458E0988" containerWithKeyObject="87370C81-D5F1-48F8-0D50-2B096A1B0713" localFKIndex="69F85147-652A-B738-33FA-EAB31D8D6859" name="učenik_roditelj_roditelj_FK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 21:14:03 UTC</createdTime>
+<generatorID>20DCCFC7-C549-9834-D406-DFC0EF064F2A</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<referredTableLongName>roditelj</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8ECD85F2-CD17-B51F-7DC6-B85E372AD4B3</referredTableID>
+<keyObject>6FF1FD30-1499-A072-C21C-C70A4184F989</keyObject>
+<referredKeyID>6FF1FD30-1499-A072-C21C-C70A4184F989</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>roditelj_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

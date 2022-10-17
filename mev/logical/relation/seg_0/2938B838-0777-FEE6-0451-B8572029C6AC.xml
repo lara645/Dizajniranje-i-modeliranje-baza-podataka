@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="predmet_raspored" directorySegmentName="seg_0" id="2938B838-0777-FEE6-0451-B8572029C6AC">
+<createdBy>LARA</createdBy>
+<createdTime>2020-04-29 19:51:42 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="0248AD14-D20E-E76E-3FFD-56C599D95C0F" value="true"/>
+</engineerTo>
+<sourcePk>5D23EE6B-842C-4226-3C25-410A538102F3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A1330085-3845-6D8E-75E5-2AF61FE8E769</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>284EA355-7E41-6DF1-763A-49F4A22CEB60</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

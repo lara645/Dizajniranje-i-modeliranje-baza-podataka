@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="razrednik" directorySegmentName="seg_0" id="C0D7829B-D372-8C74-317C-C08FEF9F69B9">
+<createdBy>LARA</createdBy>
+<createdTime>2020-04-29 19:03:18 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<sourcePk>D87BF4D7-F53F-025A-C0EC-356C62AF408D</sourcePk>
+<targetPk>58EE7148-4F5E-2D5A-093D-728624613726</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A9B2CBCE-3C0C-C02A-7F3A-38838AEF0240</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>DA8CA73E-4420-7991-FAA8-47DC7669D4A0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

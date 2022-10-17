@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87370C81-D5F1-48F8-0D50-2B096A1B0713" name="učenik_roditelj">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 21:14:03 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="učenik_učenik_id" id="F425CAE6-A9BE-27D6-F6BA-B9B8DC38373E">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 21:14:03 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="852948E0-CCBF-1F61-6BE1-932F7D06DC24" referredColumn="9153D234-52B2-68F4-8EDB-9CC7E6DE1075"/>
+</associations>
+</Column>
+<Column name="roditelj_roditelj_id" id="E4F9CCF3-F23C-343A-5DF5-26CF3A6A2177">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 21:14:03 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8426DABF-2DF7-97DB-738C-6000458E0988" referredColumn="72072FFB-0402-7FC0-AB9F-DBADCD057BD1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDA9ADC5-6EB9-FA16-7916-198EB4D9BEB6" name="učenik_roditelj_PK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 21:14:03 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F425CAE6-A9BE-27D6-F6BA-B9B8DC38373E"/>
+<colUsage columnID="E4F9CCF3-F23C-343A-5DF5-26CF3A6A2177"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69F85147-652A-B738-33FA-EAB31D8D6859" name="učenik_roditelj_roditelj_FK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 21:14:03 UTC</createdTime>
+<generatorID>20DCCFC7-C549-9834-D406-DFC0EF064F2A</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4F9CCF3-F23C-343A-5DF5-26CF3A6A2177"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15677FCC-5909-62C1-D05B-A4254BC1EC51" name="učenik_roditelj_učenik_FK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>20DCCFC7-C549-9834-D406-DFC0EF064F2A</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F425CAE6-A9BE-27D6-F6BA-B9B8DC38373E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="predmet_natjecanje" directorySegmentName="seg_0" id="1A3C66C9-BACB-0BBE-AB36-9EC849625C51">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 16:17:18 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<sourcePk>5D23EE6B-842C-4226-3C25-410A538102F3</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A1330085-3845-6D8E-75E5-2AF61FE8E769</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0CD528BD-8A90-A395-F4B9-0041C3F7C3C4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

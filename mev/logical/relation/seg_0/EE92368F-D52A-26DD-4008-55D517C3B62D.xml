@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="raspored_izostanak" directorySegmentName="seg_0" id="EE92368F-D52A-26DD-4008-55D517C3B62D">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-07 08:51:59 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<sourcePk>AB8CB235-4EFD-F40E-86EF-E6405A587CA4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>284EA355-7E41-6DF1-763A-49F4A22CEB60</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>65A1E10E-6020-ACE9-9E99-507545DEC189</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

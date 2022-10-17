@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D7CC4989-9E5D-7FB1-09F9-459D90174148" containerWithKeyObject="01734751-63FC-F53E-824A-29857E911907" localFKIndex="A55C8534-B8BC-39F7-7A68-A5E62933FFB8" name="raspored_razred_FK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>82024201-6BE4-F643-F7DF-0C431081D25D</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<referredTableLongName>razred</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ADD85F6C-3F05-E3A5-4FFD-A2F9FAA563EA</referredTableID>
+<keyObject>C37368E1-9388-16C1-8722-8063C2A33281</keyObject>
+<referredKeyID>C37368E1-9388-16C1-8722-8063C2A33281</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>školska_godina,odjeljenje,razred_br</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

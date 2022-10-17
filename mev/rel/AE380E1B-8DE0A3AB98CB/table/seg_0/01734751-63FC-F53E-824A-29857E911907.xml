@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01734751-63FC-F53E-824A-29857E911907" name="raspored">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>284EA355-7E41-6DF1-763A-49F4A22CEB60</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="raspored_id" id="89DFC234-87A6-1990-AAE8-88DBAC896415">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>6BE405FD-8173-2240-D385-9E0AD410DBD6</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum" id="46663431-B461-4648-CD58-6F232DAF40DF">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>C4759C9D-9A89-7DCA-0C6E-B1B56B9BEE4E</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dan_u_tjednu" id="4724C0CA-581F-BF4C-E7EC-B2833D815663">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>33D1925E-AC2F-2615-9155-4E9945E1D3E0</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="smjena" id="BFF2413A-AAD2-5756-685D-3919B6366947">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>42230146-BABC-535B-E7E4-75A9E4C08A25</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sat" id="6CC7A1B8-CE4B-6122-3A0A-3B34B404A766">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>DEBC4479-25A2-D8BB-9453-873C5867C41F</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="učionica" id="EDB679C3-7B8C-0A8F-B318-AF7510E91085">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>35E9C043-0845-16C3-F12C-2D9AEC943409</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="predmet_predmet_id" id="E5F19A1F-3490-37A4-D5B2-5039AE435A30">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>123AB669-EE33-7D9B-1EA4-8337577FF742</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29367930-7060-2FF4-9AD6-02ACF3BB0114" referredColumn="17CF6031-411B-D8AE-9EAB-5BAC91D824B7"/>
+</associations>
+</Column>
+<Column name="razred_školska_godina" id="A93BD278-03A9-44F2-5417-CE92A43ECA36">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>F974BD6E-EDD5-3558-9F8C-420925684EA0</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7CC4989-9E5D-7FB1-09F9-459D90174148" referredColumn="760256F9-AA33-6EFC-0023-6520B73C0E50"/>
+</associations>
+</Column>
+<Column name="razred_odjeljenje" id="6B1FFB62-728F-74B6-05DA-3BF66818D6F0">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>016375C7-1104-ADA6-D104-5D5E8C7059D9</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7CC4989-9E5D-7FB1-09F9-459D90174148" referredColumn="3E21DCA6-4634-C95A-0A3E-4C5536281556"/>
+</associations>
+</Column>
+<Column name="razred_razred_br" id="AC3A1A05-BC09-0BF2-F523-6D5C9C12EEE8">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>525AB1F2-E665-9652-14D6-FC9046BFAC5E</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7CC4989-9E5D-7FB1-09F9-459D90174148" referredColumn="FA8D2A05-7CF6-1A37-88F2-704DAE2971BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C45DC05C-2551-9D2C-1FDF-508BBB0F48FA" name="raspored_PK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>AB8CB235-4EFD-F40E-86EF-E6405A587CA4</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89DFC234-87A6-1990-AAE8-88DBAC896415"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81976F02-D2FA-85E3-C4E8-A7BE26F73D3F" name="raspored_predmet_FK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>2938B838-0777-FEE6-0451-B8572029C6AC</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5F19A1F-3490-37A4-D5B2-5039AE435A30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A55C8534-B8BC-39F7-7A68-A5E62933FFB8" name="raspored_razred_FK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>82024201-6BE4-F643-F7DF-0C431081D25D</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A93BD278-03A9-44F2-5417-CE92A43ECA36"/>
+<colUsage columnID="6B1FFB62-728F-74B6-05DA-3BF66818D6F0"/>
+<colUsage columnID="AC3A1A05-BC09-0BF2-F523-6D5C9C12EEE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

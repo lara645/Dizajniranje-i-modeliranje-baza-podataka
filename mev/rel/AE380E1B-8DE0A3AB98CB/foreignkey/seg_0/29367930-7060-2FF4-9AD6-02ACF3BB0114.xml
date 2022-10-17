@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="29367930-7060-2FF4-9AD6-02ACF3BB0114" containerWithKeyObject="01734751-63FC-F53E-824A-29857E911907" localFKIndex="81976F02-D2FA-85E3-C4E8-A7BE26F73D3F" name="raspored_predmet_FK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>2938B838-0777-FEE6-0451-B8572029C6AC</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<referredTableLongName>predmet</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0D4E72C5-565B-9612-A75C-B8C950F61324</referredTableID>
+<keyObject>93BBCB76-7D0B-0106-47F3-8763261A334C</keyObject>
+<referredKeyID>93BBCB76-7D0B-0106-47F3-8763261A334C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>predmet_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

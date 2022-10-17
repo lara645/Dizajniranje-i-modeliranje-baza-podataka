@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D4E72C5-565B-9612-A75C-B8C950F61324" name="predmet">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:49:24 UTC</createdTime>
+<generatorID>A1330085-3845-6D8E-75E5-2AF61FE8E769</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="predmet_id" id="17CF6031-411B-D8AE-9EAB-5BAC91D824B7">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:49:24 UTC</createdTime>
+<generatorID>24F6A626-EE0C-42B6-D858-18BAFD2135D3</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="0001EAEC-5F77-AE6F-603A-5E30B291ADF5">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:49:24 UTC</createdTime>
+<generatorID>064028A1-E009-C0B2-79B0-2ED415E8F3A0</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="obvezni" id="408DB1E1-9CDE-7E3D-1942-5500AF35AE63">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:49:24 UTC</createdTime>
+<generatorID>4738526D-6CF8-200F-5CCD-7942261C3F6E</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nastavnik_nastavnik_id" id="E277F2C3-136E-79A1-2E31-05C465A45B3E">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:49:24 UTC</createdTime>
+<generatorID>7F37B82C-A024-A202-A29E-026821FDAFD4</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97FBA630-5107-0693-E749-DDD43747C599" referredColumn="3493FE97-3CDC-972E-4BF6-293CED0239B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93BBCB76-7D0B-0106-47F3-8763261A334C" name="predmet_PK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:49:24 UTC</createdTime>
+<generatorID>5D23EE6B-842C-4226-3C25-410A538102F3</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17CF6031-411B-D8AE-9EAB-5BAC91D824B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44264567-E5B9-9FA3-C5CE-1881F423A14A" name="predmet_nastavnik_FK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:49:24 UTC</createdTime>
+<generatorID>5ECEB7FC-1002-6DD7-E0EC-F78898EB67B4</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E277F2C3-136E-79A1-2E31-05C465A45B3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

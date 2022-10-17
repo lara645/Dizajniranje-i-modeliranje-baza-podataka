@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="nastavnik_predmet" directorySegmentName="seg_0" id="5ECEB7FC-1002-6DD7-E0EC-F78898EB67B4">
+<createdBy>LARA</createdBy>
+<createdTime>2020-04-30 08:03:08 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<sourcePk>58EE7148-4F5E-2D5A-093D-728624613726</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DA8CA73E-4420-7991-FAA8-47DC7669D4A0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A1330085-3845-6D8E-75E5-2AF61FE8E769</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

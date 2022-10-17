@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="mev" id="694542D8-B291-F693-5236-B43E26F13491" version="3.5">
+<createdBy>LARA</createdBy>
+<createdTime>2020-04-29 18:29:49 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>694542D8-B291-F693-5236-B43E26F13491</designId>
+</OSDM_Design>

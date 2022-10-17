@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="659486B1-6EAF-919D-6D85-8EE7E1FDC9AC" name="pedagoška_mjera">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 16:45:27 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mjera_id" id="90E3767C-01BF-EEBC-4890-4C805DAC7830">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 16:45:48 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mjera" id="AA0D657F-DCFE-A83C-B2CD-6AE6CB8B2D4C">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 16:46:07 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="obrazloženje" id="FC31E8BD-8FD6-530C-052D-0FAAEA1E7E9F">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-07 08:40:12 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="učenik_id" id="9B3F76D3-5B9C-A816-EE55-6E0A19E71397">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 16:56:27 UTC</createdTime>
+<generatorID>381E7488-8621-56E4-E5EA-3616A448FF23</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<referedAttribute>B83A9254-DCE2-85EF-686F-66DF88FCA89A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2B13A16D-6565-9322-3733-F4E25096BBF4" name="izvanškolska_aktivnost PK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 16:46:05 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90E3767C-01BF-EEBC-4890-4C805DAC7830</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

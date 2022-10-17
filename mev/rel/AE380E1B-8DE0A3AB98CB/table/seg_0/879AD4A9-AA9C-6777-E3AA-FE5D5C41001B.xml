@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="879AD4A9-AA9C-6777-E3AA-FE5D5C41001B" name="dnevnik">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 20:46:34 UTC</createdTime>
+<generatorID>C5A22D97-8526-5797-2160-3B408E41D589</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ocjena_id" id="F138A1AC-4AAB-514C-EC74-F5AFBB789F79">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 20:46:34 UTC</createdTime>
+<generatorID>670EFB4B-974B-0D4A-A221-C27F968CB29F</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ocjena" id="6E4364A8-6350-A074-BE4D-5D79FCCF5D0C">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 20:46:34 UTC</createdTime>
+<generatorID>E2EA4972-634E-33E3-E90C-84D8EBD9F1B6</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum" id="CEDC7E40-EF9A-6B74-FCF0-3DDC0F9793F6">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 20:46:34 UTC</createdTime>
+<generatorID>8C7DFA02-CF2C-5B42-D4BD-6A99D05850DC</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="učenik_učenik_id" id="C348DF18-3CB7-53B6-CFEE-EA3A29DE6886">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 20:46:34 UTC</createdTime>
+<generatorID>7D3CDC00-2B40-89B2-EF07-DF8632BC749F</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8EC1F28C-40E9-E312-B94F-A37AB6D211B7" referredColumn="9153D234-52B2-68F4-8EDB-9CC7E6DE1075"/>
+</associations>
+</Column>
+<Column name="predmet_predmet_id" id="269123DE-CB51-166D-33E4-A74EE3689A68">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 20:46:34 UTC</createdTime>
+<generatorID>095A6B9E-242C-33C9-C69A-ECA9825ECA6C</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12660BAE-DD9B-279A-8DC8-5367A38617E4" referredColumn="17CF6031-411B-D8AE-9EAB-5BAC91D824B7"/>
+</associations>
+</Column>
+<Column name="bilješka" id="D3A0A89E-4A09-5755-F0D2-204024AD503F">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 20:46:34 UTC</createdTime>
+<generatorID>74DB0E15-5D60-D18A-C9B2-8D2FEB783CC0</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02FCDF3B-4506-B96C-1829-F4382842F9C1" name="dnevnik_PK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 20:46:34 UTC</createdTime>
+<generatorID>60C30C3D-1B44-62C0-23D0-71B96DC1AD6C</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F138A1AC-4AAB-514C-EC74-F5AFBB789F79"/>
+<colUsage columnID="C348DF18-3CB7-53B6-CFEE-EA3A29DE6886"/>
+<colUsage columnID="269123DE-CB51-166D-33E4-A74EE3689A68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4FF56F4-5111-6FA1-168D-5C4A36FF527D" name="dnevnik_predmet_FK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:49:24 UTC</createdTime>
+<generatorID>9217F099-3D87-2B12-EFD4-BE210C9BAEC9</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="269123DE-CB51-166D-33E4-A74EE3689A68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C42E7B03-A14F-E060-D6E6-FB1F1D6A7DC7" name="dnevnik_učenik_FK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>3F5FC0F6-990E-F8D9-2568-0A9DF05A35CB</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C348DF18-3CB7-53B6-CFEE-EA3A29DE6886"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

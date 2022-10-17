@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="837F4BFC-53F9-C61C-878E-CC0AE42070A7" name="pedagoška_mjera">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 20:46:34 UTC</createdTime>
+<generatorID>659486B1-6EAF-919D-6D85-8EE7E1FDC9AC</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mjera_id" id="EDBECA49-D8C0-9143-5467-30F88E310EA8">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 20:46:34 UTC</createdTime>
+<generatorID>90E3767C-01BF-EEBC-4890-4C805DAC7830</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mjera" id="324FD47F-2101-EE75-2347-0C699D84C597">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 20:46:34 UTC</createdTime>
+<generatorID>AA0D657F-DCFE-A83C-B2CD-6AE6CB8B2D4C</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="obrazloženje" id="DC9FBB74-B24A-1ECF-4E2E-4FEC1A2E6528">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 20:46:34 UTC</createdTime>
+<generatorID>FC31E8BD-8FD6-530C-052D-0FAAEA1E7E9F</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="učenik_učenik_id" id="DA893746-E5C9-4120-AB9C-86B74D779BC9">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 20:46:34 UTC</createdTime>
+<generatorID>9B3F76D3-5B9C-A816-EE55-6E0A19E71397</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B820F591-B414-6B6C-3FE9-73A0DA887317" referredColumn="9153D234-52B2-68F4-8EDB-9CC7E6DE1075"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7BB696EF-BA2C-B39C-17A8-9F1EC31316A9" name="pedagoška_mjera_PK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 20:46:34 UTC</createdTime>
+<generatorID>2B13A16D-6565-9322-3733-F4E25096BBF4</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDBECA49-D8C0-9143-5467-30F88E310EA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14299C58-FCB8-9238-F2F3-C58B9A15289E" name="pedagoška_mjera_učenik_FK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-10 07:55:46 UTC</createdTime>
+<generatorID>381E7488-8621-56E4-E5EA-3616A448FF23</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA893746-E5C9-4120-AB9C-86B74D779BC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

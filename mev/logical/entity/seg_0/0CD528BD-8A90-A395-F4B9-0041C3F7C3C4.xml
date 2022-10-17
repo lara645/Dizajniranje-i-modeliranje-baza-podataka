@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0CD528BD-8A90-A395-F4B9-0041C3F7C3C4" name="natjecanje">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 16:09:10 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="natjecanje_id" id="6E6F978C-8196-E79F-72B5-3CC109464655">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 16:09:40 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razina" id="C0CE765F-9E2D-5D34-1A33-C62F0F482D9D">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 16:10:05 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="osvojeno_mjesto" id="5EABE0F5-4674-1F65-6406-880EFFCF16FE">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 16:11:14 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="učenik_id" id="8A7F7187-898A-CC07-0627-084C6FC76E8F">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 16:15:44 UTC</createdTime>
+<generatorID>C6BD4418-5BF2-F101-F914-652D36C419D9</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<referedAttribute>B83A9254-DCE2-85EF-686F-66DF88FCA89A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="predmet_id" id="4D4D12E7-5930-9B53-F4D1-08D723D3DD0F">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 16:17:18 UTC</createdTime>
+<generatorID>1A3C66C9-BACB-0BBE-AB36-9EC849625C51</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<referedAttribute>24F6A626-EE0C-42B6-D858-18BAFD2135D3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="3FFCD0C6-C347-1231-D57A-65702C82B92F">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 20:43:05 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mjesto_održavanja" id="225B2D2D-088A-2C4E-AB50-08F4FBCFCF71">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-08 20:43:45 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E04F170-47F7-ED0E-642C-9B78B1CD88E9" name="natjecanje PK">
+<createdBy>LARA</createdBy>
+<createdTime>2020-05-06 16:10:02 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="AE380E1B-6792-4D04-ED18-8DE0A3AB98CB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6E6F978C-8196-E79F-72B5-3CC109464655</attributeRef>
+<attributeRef>8A7F7187-898A-CC07-0627-084C6FC76E8F</attributeRef>
+<attributeRef>4D4D12E7-5930-9B53-F4D1-08D723D3DD0F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
